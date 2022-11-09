@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "cortex"
+  site-url: "https://CptCaptain.github.io/cortex"
+  description: "Researching fast and accurate Object Detection"
+  repo-branch: main
+  repo-url: "https://github.com/CptCaptain/cortex"
