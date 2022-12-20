@@ -1,0 +1,14 @@
+# tooling
+nbdev
+jupyterlab
+pre-commit
+gradio
+
+
+# ML requirements
+# This might need some adaptation, depending on the specific system
+--extra-index-url https://download.pytorch.org/whl/cu116
+torch
+torchvision
+
+mmcv-full
