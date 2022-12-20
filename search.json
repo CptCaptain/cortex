@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "cortex",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "cortex",
+    "section": "Install",
+    "text": "Install\npip install cortex"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "cortex",
+    "section": "How to use",
+    "text": "How to use\nAt some point, this will contain (or link to) a gradio demo page, where the different models can be interactively tested in various settings.\nNot yet, though.\nTo use this, you might need to tunnel some ports over ssh.\nssh -L8888:localhost:8888 $GPU-SERVER\nssh -L7860:localhost:7860 $GPU-SERVER"
+  },
+  {
+    "objectID": "gradio.html",
+    "href": "gradio.html",
+    "title": "Gradio demo",
+    "section": "",
+    "text": "import gradio as gr\n\n\n\ngreet\n\n greet (name)\n\n\ndemo = gr.Interface(fn=greet, inputs=\"text\", outputs=\"text\")\n\ndemo.launch()\n\n\ndemo.close()"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "Cortex",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  }
+]
