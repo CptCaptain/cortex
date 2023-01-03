@@ -149,3 +149,6 @@ checklink/cookies.txt
 
 # Quarto
 .quarto
+
+# don't track model repos, they're separate
+model_repos/
