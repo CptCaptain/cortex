@@ -3,6 +3,7 @@ nbdev
 jupyterlab
 pre-commit
 gradio
+accelerate
 
 
 # ML requirements
